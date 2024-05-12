@@ -1,0 +1,35 @@
+.list{
+    list-style: none;
+    position: relative;
+    list-style: none;
+    margin-top: 350px;
+    margin-left: 700px;
+   
+   
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+ .item:nth-child(1){
+    background-color: red;
+}
+
+.item:nth-child(2){
+    background-color: blue;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+    
+}
+
+.item:nth-child(3){
+    background-color: green;
+    left: 100px;
+    top: 100px;
+}
+
+  
